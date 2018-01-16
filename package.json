@@ -1,0 +1,37 @@
+{
+  "name": "xstest",
+  "version": "1.0.0",
+  "description": "SAP Hana XS classic Test framework",
+  "main": "index.js",
+  "scripts": {
+    "build": "gulp && mocha && gulp build",
+    "test": "gulp && mocha",
+    "dev": "gulp",
+    "dry-build": "gulp build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Davidblkx/XSTests.git"
+  },
+  "keywords": [
+    "SAP",
+    "HANA",
+    "XS"
+  ],
+  "author": "David Pires",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Davidblkx/XSTests/issues"
+  },
+  "homepage": "https://github.com/Davidblkx/XSTests#readme",
+  "devDependencies": {
+    "typescript": "^2.6.2",
+    "mocha": "^4.1.0",
+    "gulp": "^4.0.0",
+    "del": "^3.0.0",
+    "gulp-ext-replace": "^0.3.0",
+    "gulp-typescript": "^3.2.3",
+    "gulp-zip": "^4.1.0",
+    "@types/node": "^9.3.0"
+  }
+}
